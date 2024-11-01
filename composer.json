@@ -1,0 +1,20 @@
+{
+    "name": "springdevs/wc-missing-addons",
+    "description": "WooCommerce Missing Addons",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [{
+        "name": "SpringDevs",
+        "email": "contact@spingdevs.net"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SpringDevs\\WcMissingAddons\\": "includes/"
+        },
+        "files": [
+            "includes/functions.php"
+        ]
+    }
+}
